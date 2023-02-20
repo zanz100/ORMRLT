@@ -1,0 +1,26 @@
+{
+    "name": "ormrlt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node src/index.ts",
+        "typeorm": "typeorm-ts-node-commonjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^16.11.10",
+        "ts-node": "10.7.0",
+        "typescript": "4.5.2"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "nodemon": "^2.0.20",
+        "pg": "^8.4.0",
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "0.3.12"
+    }
+}
